@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/contact-sale.iml" filepath="$PROJECT_DIR$/.idea/modules/contact-sale.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/contact-sale_main.iml" filepath="$PROJECT_DIR$/.idea/modules/contact-sale_main.iml" group="contact-sale" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/contact-sale_test.iml" filepath="$PROJECT_DIR$/.idea/modules/contact-sale_test.iml" group="contact-sale" />
+    </modules>
+  </component>
+</project>

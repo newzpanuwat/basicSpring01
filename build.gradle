@@ -1,0 +1,29 @@
+group 'com.codesanook.contactSale'
+version '1.0-SNAPSHOT'
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.2.7.RELEASE")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'spring-boot'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile("org.springframework.boot:spring-boot-starter-web:1.2.7.RELEASE")
+    compile("org.springframework.boot:spring-boot-starter-thymeleaf:1.2.7.RELEASE")
+    compile('net.sourceforge.nekohtml:nekohtml:1.9.22')
+    // https://mvnrepository.com/artifact/joda-time/joda-time
+    compile group: 'joda-time', name: 'joda-time', version: '2.9.7'
+
+}

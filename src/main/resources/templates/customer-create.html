@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Customer</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css"/>
+</head>
+<body>
+<h1>Create Customer!!</h1>
+
+<h3><a href = "/customer/create">
+    back to list
+</a></h3>
+
+<form method="post" action="/customer/create">
+    <div>
+        <label>Firstname</label>
+        <input type="text" th:field="${customer.firstname}"/>
+    </div>
+
+    <div>
+        <label>Lastname</label>
+        <input type="text" th:field="${customer.lastname}"/>
+    </div>
+
+    <div>
+        <label>Date of birth</label>
+        <input type="text" th:field="${customer.dateOfBirth}"/>
+    </div>
+
+    <div>
+        <label>MobilePhone No.</label>
+        <input type="text" th:field="${customer.mobilePhoneNumber}"/>
+    </div>
+    <div>
+        <input type="submit"/>
+    </div>
+</form>
+</body>
+</html>
